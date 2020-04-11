@@ -1,10 +1,17 @@
-# CompiledFromProjects
+# Compiled from projects
 
 This project is an Angular CLI example, agrouping several projects already created. These projects are:
  - [Angular Dashboard](https://github.com/talesmateus123/angular-dashboard)
  - [Angular Task Manager](https://github.com/talesmateus123/angular-task-manager)
  - [Angular Tic tac Toe](https://github.com/talesmateus123/angular-tic-tac-toe)
  - [Angular Currency Converter](https://github.com/talesmateus123/angular-currency-converter)
+
+With these projects you will learn:
+ - Use custom images and implement the observer pattern;
+ - Using a javascript API (Google Chart) to generate charts;
+ - Making HTTP requests to an external API.
+ - Using the LocalStorage browser to save data, as if they were cookies;
+ - Creating custom directives, installing the CSS framework bootstrap and its use.
 
 The focus is demonstrate implementation of good programming practices, as well as, code documentation, form validation,  and layers abstraction, that is, abstraction of components, services, and modules. I hope to help you with this angular example.
 
