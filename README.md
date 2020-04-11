@@ -1,6 +1,14 @@
 # CompiledFromProjects
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+This project is an Angular CLI example, agrouping several projects already created. These projects are:
+ - [Angular Dashboard](https://github.com/talesmateus123/angular-dashboard)
+ - [Angular Task Manager](https://github.com/talesmateus123/angular-task-manager)
+ - [Angular Tic tac Toe](https://github.com/talesmateus123/angular-tic-tac-toe)
+ - [Angular Currency Converter](https://github.com/talesmateus123/angular-currency-converter)
+
+The focus is demonstrate implementation of good programming practices, as well as, code documentation, form validation,  and layers abstraction, that is, abstraction of components, services, and modules. I hope to help you with this angular example.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 
 ## Development server
 
