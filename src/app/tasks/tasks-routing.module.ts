@@ -12,7 +12,6 @@ export const TasksRoutes: Routes = [
 		component: TasksRoutingComponent,
 		children: [
 			{ path: '', component: ListTaskComponent },
-			{ path: 'list', redirectTo: 'tasks/list' },
 			{ path: 'new', component: NewTaskComponent },
 			{ path: 'update/:id', component: UpdateTaskComponent },
 		  
