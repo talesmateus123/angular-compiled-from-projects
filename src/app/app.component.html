@@ -13,18 +13,18 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
+        <li><a >Home</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <a  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Projects <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="#">Dashboard</a></li>
+            <li><a [routerLink]="['/dashboard']">Dashboard</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Calculator</a></li>
-            <li><a href="#">Currency converter</a></li>
-            <li><a href="#">Task managers</a></li>
-            <li><a href="#">Tic Tac Toe</a></li>
+            <li><a [routerLink]="['/calculator']">Calculator</a></li>
+            <li><a [routerLink]="['/currency-converter']">Currency converter</a></li>
+            <li><a [routerLink]="['/tasks']">Task managers</a></li>
+            <li><a [routerLink]="['/tic-tac-toe']">Tic Tac Toe</a></li>
           </ul>
         </li>
       </ul>
